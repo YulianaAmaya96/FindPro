@@ -1,0 +1,93 @@
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+
+.parallax-container .section {
+    width: 100%;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.justify{
+  text-align : justify;
+}
+
+html {
+  font-family: GillSans, Calibri, Trebuchet, sans-serif;
+}
+
+.input-field label {
+   color: black !important;
+}
+
+.picker__date-display {
+  background-color:#d4e157;
+}
+
+.picker__weekday-display {
+  background-color:#d4e157;
+}
+
+.picker__day--selected, .picker__day--selected:hover, .picker--focused .picker__day--selected {
+  background-color:#d4e157;
+}
+
+.picker__close, .picker__today, .picker__clear{
+  color: #d4e157;
+}
+
+.picker__day.picker__day--today{
+  color: #d4e157;
+  font-weight: 700;
+}
+
+.input-field input:focus + label {
+   color: #d4e157 !important;
+}
+
+.row .input-field input:focus {
+  border-bottom: 1px solid #d4e157 !important;
+  box-shadow: 0 1px 0 0 #d4e157 !important
+}
